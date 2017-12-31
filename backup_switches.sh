@@ -1,7 +1,6 @@
 #!/bin/bash
-# backs up cisco switch configurations from nvram:/startup-config
-# switch names must be resolvable, IP's will work too. ssh pubkey needs to be installed on the switch already
-# automatically keeps the last N versions of a switch config, defined below as $copies
+# backs up cisco switch configurations from switch filesystem
+# https://github.com/jalavoy/cisco-switch-backup
 # jalavoy 12.30.2017
 
 # BEGIN EDITS
